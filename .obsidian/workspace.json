@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Home"
             }
-          },
-          {
-            "id": "540337f34000c52a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MAX98357A.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MAX98357A"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,33 +209,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "540337f34000c52a",
+  "active": "a693f08c30de41bd",
   "lastOpenFiles": [
-    "02 - Projects/SandBox",
+    "02 - Projects/ESP SandBox/src/main.cpp",
+    "02 - Projects/ESP SandBox/test/README",
+    "02 - Projects/ESP SandBox/test",
+    "02 - Projects/ESP SandBox/lib/README",
+    "02 - Projects/ESP SandBox/lib",
+    "02 - Projects/ESP SandBox/include/README",
+    "02 - Projects/ESP SandBox/include",
+    "02 - Projects/ESP SandBox/src",
+    "02 - Projects/ESP SandBox/platformio.ini",
+    "02 - Projects/ESP SandBox",
     "02 - Projects/New folder",
+    "MAX98357A.md",
     "02 - Resources/Attachments/Pasted image 20260327160250.png",
     "01 - Home/Home.md",
-    "MAX98357A.md",
     "05 - Fleeting/SH1106.md",
     "05 - Fleeting/ESP32-S3-N16R8.md",
     "02 - Resources/Attachments/Pasted image 20260327155557.png",
-    "02 - Projects/Voice Recognition",
     "03 - Daily/Untitled 2.md",
     "04 - Archive/Untitled 1.md",
     "02 - Projects/Untitled.md",
     "02 - Resources/Attachments/Pasted image 20260327153131.png",
-    "02 - Resources/Attachments",
-    "02 - Resources",
     "ReadMe.md",
-    "Aura-Pal/style.css",
-    "Aura-Pal/script.js",
     "Aura-Pal/integration_guide.md",
-    "Aura-Pal/index.html",
     "Aura-Pal/frontend_manual.md",
     "Aura-Pal/README.md",
-    "Aura-Pal",
-    "02 - Projects",
-    "02 -",
     "99 - META/Subject Template.md",
     "99 - META/Subject Syllabus.md",
     "99 - META/Rough Note Template.md",
