@@ -5,15 +5,19 @@ import sounddevice as sd
 ser = serial.Serial('COM6', 921600)  # CHANGE THIS
 
 def audio_callback(outdata, frames, time, status):
-    data = ser.read(frames * 4)
-    audio = np.frombuffer(data, dtype=np.int32)
+    data = ser.read(frames * 2)
 
-    # Convert to float
-    audio = audio.astype(np.float32) / 2147483648.0
+    audio = np.frombuffer(data, dtype=np.int16)
+
+    # remove DC offset (BIG improvement)
+    audio = audio - np.mean(audio)
+
+    # normalize
+    audio = audio.astype(np.float32) / 32768.0
 
     outdata[:] = audio.reshape(-1, 1)
 
-with sd.OutputStream(samplerate=16000, channels=1, blocksize=256, callback=audio_callback):
+with sd.OutputStream(samplerate=8000, channels=1, blocksize=128, callback=audio_callback):
     print("🎤 LIVE MIC STARTED...")
     while True:
         pass

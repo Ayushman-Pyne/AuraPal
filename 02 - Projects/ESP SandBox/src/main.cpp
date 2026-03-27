@@ -1,12 +1,14 @@
 #include <Arduino.h>
 #include "driver/i2s.h"
 
+// I2S MIC PINS
 #define I2S_WS 15
 #define I2S_SD 16
 #define I2S_SCK 14
 
 #define I2S_PORT I2S_NUM_0
 
+// I2S CONFIG
 void setupI2S() {
     i2s_config_t i2s_config = {
         .mode = (i2s_mode_t)(I2S_MODE_MASTER | I2S_MODE_RX),
@@ -40,9 +42,16 @@ void setup() {
 
 void loop() {
     int32_t buffer[256];
+    int16_t outBuffer[256];
     size_t bytes_read;
 
     i2s_read(I2S_PORT, &buffer, sizeof(buffer), &bytes_read, portMAX_DELAY);
 
-    Serial.write((uint8_t*)buffer, bytes_read);
+    int samples = bytes_read / 4;
+
+    for (int i = 0; i < samples; i++) {
+        outBuffer[i] = buffer[i] >> 14;
+    }
+
+    Serial.write((uint8_t*)outBuffer, samples * 2);
 }
