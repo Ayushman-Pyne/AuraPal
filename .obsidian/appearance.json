@@ -1,0 +1,15 @@
+{
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "Cards",
+    "Colored Sidebar Items",
+    "Daily Note Themes",
+    "General Tweaks",
+    "MCL Multi Column",
+    "Notebook Backgrounds"
+  ],
+  "cssTheme": "Blue Topaz",
+  "interfaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "JetBrains Mono NL",
+  "theme": "obsidian"
+}

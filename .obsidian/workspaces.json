@@ -1,0 +1,210 @@
+{
+  "workspaces": {
+    "Default": {
+      "main": {
+        "id": "1a467ce5d6465554",
+        "type": "split",
+        "children": [
+          {
+            "id": "769d91e6ead8ab7d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5716069995013caa",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "00 - Map Of Contents/0 - Home.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "0 - Home"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "f06f2cb16b06455a",
+        "type": "split",
+        "children": [
+          {
+            "id": "06febb5faab9f53c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aa5e7fca4d992df3",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "401d85a505ecbd21",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "735c45d46f137588",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          },
+          {
+            "id": "b657c3dac449849e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0917546c1d1e2b77",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 247.51103591918945
+      },
+      "right": {
+        "id": "cd7c2a542305bbf1",
+        "type": "split",
+        "children": [
+          {
+            "id": "7822ef4453eb34a4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6c5b9fb72f2ffb08",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "00 - Map Of Contents/0 - Home.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for 0 - Home"
+                }
+              },
+              {
+                "id": "79c53e99a069d116",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "00 - Map Of Contents/0 - Home.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from 0 - Home"
+                }
+              },
+              {
+                "id": "f687b9266917b821",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2cf23564897c699f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "00 - Map Of Contents/0 - Home.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of 0 - Home"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "ff8442b487df217b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e048b7db0b363782",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": true,
+          "homepage:Open homepage": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "obsidian-git:Open Git source control": true,
+          "templater-obsidian:Templater": true,
+          "workspaces:Manage workspace layouts": true
+        }
+      },
+      "active": "5716069995013caa",
+      "mtime": "2025-01-25T19:58:16+05:30"
+    }
+  },
+  "active": "Default"
+}

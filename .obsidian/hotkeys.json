@@ -1,0 +1,28 @@
+{
+  "zen:toggle": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Z"
+    }
+  ],
+  "typewriter-mode:typewriter-mode-plugin-toggle": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Z"
+    }
+  ],
+  "typewriter-mode:writing-focus-toggle": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "trashOption": "local",
+  "newFileLocation": "root",
+  "attachmentFolderPath": "02 - Resources/Attachments",
+  "showLineNumber": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "newFileFolderPath": "01 - Semesters/SEM 1/Subjects SEM 1",
+  "alwaysUpdateLinks": true,
+  "focusNewTab": false
+}
