@@ -1,10 +1,30 @@
 ---
 cssclasses:
-  - center-titles
 ---
 
+## How to run?
+
+1. Upload the ESP code using platformIO
+2. `npm install` in the wsAudioServer folder
+3. `npm start` in the wsAudioServer folder
+4. go to `http://localhost:8000/audio`
 
 
+## Codes
+### ***platformio.ini***
+```ini
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+board = esp32-s3-devkitc-1
+framework = arduino
+monitor_speed = 115200
+
+  
+lib_deps =
+    gilmaimon/ArduinoWebsockets@^0.5.3
+```
+
+### ***main.cpp***
 ```C++
 #include <Arduino.h>
 #include <driver/i2s.h>

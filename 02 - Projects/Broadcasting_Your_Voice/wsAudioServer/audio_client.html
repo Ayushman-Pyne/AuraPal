@@ -100,7 +100,7 @@
             //sampleRate: 16000,
             sampleRate: 44100,
         });
-        const WS_URL = 'ws://10.77.182.207:8888'
+        const WS_URL = 'ws://IP_ADDRESS:PORT' //IP from ipconfig in cmd and PORT from esp code
         var ws = new WebSocket(WS_URL)
         ws.binaryType = 'arraybuffer'
         ws.addEventListener('message', function (event) {

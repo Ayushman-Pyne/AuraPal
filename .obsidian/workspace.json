@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESP32-S3_INMP441_WebSocket_Client.md",
+                "file": "05 - Fleeting/INMP441.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESP32-S3_INMP441_WebSocket_Client"
+              "title": "INMP441"
             }
           }
         ],
@@ -240,8 +240,8 @@
   },
   "active": "c90064ab5b62ab6f",
   "lastOpenFiles": [
+    "02 - Projects/Broadcasting_Your_Voice/ESP32-S3_INMP441_WebSocket_Client/ESP32-S3_INMP441_WebSocket_Client.md",
     "05 - Fleeting/INMP441.md",
-    "ESP32-S3_INMP441_WebSocket_Client.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/iconv-lite/lib/streams.js",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/iconv-lite/lib",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/ee-first/README.md",

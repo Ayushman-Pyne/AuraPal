@@ -19,3 +19,10 @@ cssclasses:
 ---
 
 ![[Pasted image 20260327225534.png]]
+
+
+
+# Example Projects
+
+- [[ESP32-S3_INMP441_WebSocket_Client]]
+- 
