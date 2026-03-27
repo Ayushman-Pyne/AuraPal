@@ -1,4 +1,0 @@
----
-cssclasses:
-  - color-head
----
