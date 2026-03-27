@@ -93,23 +93,25 @@ async def handler(websocket):
 # -----------------------------
 app = Flask(__name__)
 
+import os
+
 @app.route("/audio")
 def audio_client():
-    return send_from_directory(".", "audio_client.html")
+    return send_from_directory("static", "audio_client.html")
 
 @app.route("/js/<path:path>")
 def send_js(path):
-    return send_from_directory("js", path)
+    return send_from_directory("static/js", path)
 
 @app.route("/image/<path:path>")
 def send_image(path):
-    return send_from_directory("image", path)
+    return send_from_directory("static/image", path)
 
 # -----------------------------
 # Run Both Servers
 # -----------------------------
 async def start_ws():
-    async with websockets.serve(handler, "10.77.182.207", WS_PORT):
+    async with websockets.serve(handler, "0.0.0.0", WS_PORT):
         print(f"🌐 WebSocket running on ws://localhost:{WS_PORT}")
         await asyncio.Future()  # run forever
 
