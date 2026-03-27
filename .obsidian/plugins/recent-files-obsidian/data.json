@@ -5,8 +5,20 @@
       "path": "01 - Home/Home.md"
     },
     {
+      "basename": "Untitled 1",
+      "path": "04 - Archive/Untitled 1.md"
+    },
+    {
+      "basename": "test multi column",
+      "path": "04 - Archive/test multi column.md"
+    },
+    {
+      "basename": "INMP441",
+      "path": "05 - Fleeting/INMP441.md"
+    },
+    {
       "basename": "MAX98357A",
-      "path": "MAX98357A.md"
+      "path": "05 - Fleeting/MAX98357A.md"
     },
     {
       "basename": "SH1106",
@@ -19,10 +31,6 @@
     {
       "basename": "Untitled 2",
       "path": "03 - Daily/Untitled 2.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "04 - Archive/Untitled 1.md"
     },
     {
       "basename": "Untitled",

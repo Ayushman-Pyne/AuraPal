@@ -211,6 +211,12 @@
   },
   "active": "a693f08c30de41bd",
   "lastOpenFiles": [
+    "04 - Archive/Untitled 1.md",
+    "04 - Archive/test multi column.md",
+    "01 - Home/Home.md",
+    "05 - Fleeting/INMP441.md",
+    "05 - Fleeting/MAX98357A.md",
+    "02 - Resources/Attachments/Pasted image 20260327225534.png",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/__pycache__/_sounddevice.cpython-314.pyc",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/__pycache__/sounddevice.cpython-314.pyc",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/__pycache__",
@@ -221,7 +227,6 @@
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/sounddevice-0.5.5.dist-info/RECORD",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/sounddevice-0.5.5.dist-info/METADATA",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/sounddevice-0.5.5.dist-info/licenses",
-    "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/sounddevice-0.5.5.dist-info/INSTALLER",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/_sounddevice_data/portaudio-binaries/README.md",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/numpy-2.4.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/numpy-2.4.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
@@ -235,20 +240,16 @@
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/numpy/random/LICENSE.md",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
-    "MAX98357A.md",
     "02 - Resources/Attachments/Pasted image 20260327160250.png",
-    "01 - Home/Home.md",
     "05 - Fleeting/SH1106.md",
     "05 - Fleeting/ESP32-S3-N16R8.md",
     "02 - Resources/Attachments/Pasted image 20260327155557.png",
     "03 - Daily/Untitled 2.md",
-    "04 - Archive/Untitled 1.md",
     "02 - Projects/Untitled.md",
     "02 - Resources/Attachments/Pasted image 20260327153131.png",
     "ReadMe.md",
     "Aura-Pal/integration_guide.md",
     "Aura-Pal/frontend_manual.md",
-    "Aura-Pal/README.md",
-    "99 - META/Subject Template.md"
+    "Aura-Pal/README.md"
   ]
 }
