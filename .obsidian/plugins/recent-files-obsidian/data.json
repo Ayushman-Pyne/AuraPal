@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "01 - Home/Home.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "ESP32-S3-N16R8",
+      "path": "05 - Fleeting/ESP32-S3-N16R8.md"
+    },
+    {
       "basename": "Untitled 2",
       "path": "03 - Daily/Untitled 2.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "Pasted image 20260327153131",
       "path": "02 - Resources/Attachments/Pasted image 20260327153131.png"
-    },
-    {
-      "basename": "ESP32-S3-N16R8",
-      "path": "05 - Fleeting/ESP32-S3-N16R8.md"
     },
     {
       "basename": "ReadMe",
