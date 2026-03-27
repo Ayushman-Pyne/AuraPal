@@ -20,8 +20,63 @@
               "icon": "lucide-file",
               "title": "ReadMe"
             }
+          },
+          {
+            "id": "9860dd54bb64faab",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "02 - Resources/Attachments/Pasted image 20260327153131.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260327153131"
+            }
+          },
+          {
+            "id": "31364516b532c579",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Projects/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "14ede54ac627748b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Archive/Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "7159c0ed85f17bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Daily/Untitled 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 2"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -211,6 +266,14 @@
   },
   "active": "0fdcefd74a42df16",
   "lastOpenFiles": [
+    "04 - Archive/Untitled 1.md",
+    "03 - Daily/Untitled 2.md",
+    "02 - Projects/Untitled.md",
+    "02 - Resources/Attachments/Pasted image 20260327153131.png",
+    "05 - Fleeting/ESP32-S3-N16R8.md",
+    "02 - Resources/Attachments",
+    "02 - Resources",
+    "ReadMe.md",
     "Aura-Pal/style.css",
     "Aura-Pal/script.js",
     "Aura-Pal/integration_guide.md",
@@ -222,17 +285,13 @@
     "02 -",
     "05 - Fleeting",
     "04 - Archive",
-    "03 - Daily",
-    "02 - Modules",
     "01 - Home/Home.md",
-    "05 -",
     "99 - META/Subject Template.md",
     "99 - META/Subject Syllabus.md",
     "99 - META/Rough Note Template.md",
     "99 - META/Full Note Template.md",
     "99 - META/Daily Vanilla Template.md",
     "99 - META/Daily Template.md",
-    "Welcome.md",
-    "ReadMe.md"
+    "Welcome.md"
   ]
 }
