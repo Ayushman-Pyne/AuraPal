@@ -1,57 +1,122 @@
 #include <Arduino.h>
-#include "driver/i2s.h"
+#include <driver/i2s.h>
+#include <WiFi.h>
+#include <ArduinoWebsockets.h>
 
-// I2S MIC PINS
 #define I2S_WS 15
 #define I2S_SD 16
 #define I2S_SCK 14
-
 #define I2S_PORT I2S_NUM_0
 
-// I2S CONFIG
-void setupI2S() {
-    i2s_config_t i2s_config = {
-        .mode = (i2s_mode_t)(I2S_MODE_MASTER | I2S_MODE_RX),
-        .sample_rate = 16000,
-        .bits_per_sample = I2S_BITS_PER_SAMPLE_32BIT,
-        .channel_format = I2S_CHANNEL_FMT_ONLY_LEFT,
-        .communication_format = I2S_COMM_FORMAT_STAND_I2S,
-        .intr_alloc_flags = 0,
-        .dma_buf_count = 8,
-        .dma_buf_len = 64,
-        .use_apll = false,
-        .tx_desc_auto_clear = false,
-        .fixed_mclk = 0
-    };
+#define bufferCnt 10
+#define bufferLen 1024
+int16_t sBuffer[bufferLen];
 
-    i2s_pin_config_t pin_config = {
-        .bck_io_num = I2S_SCK,
-        .ws_io_num = I2S_WS,
-        .data_out_num = I2S_PIN_NO_CHANGE,
-        .data_in_num = I2S_SD
-    };
+const char* ssid = "SystemOverride";
+const char* password = "f2cky0ub1tch";
 
-    i2s_driver_install(I2S_PORT, &i2s_config, 0, NULL);
-    i2s_set_pin(I2S_PORT, &pin_config);
+const char* websocket_server_host = "10.77.182.207";
+const uint16_t websocket_server_port = 8888;  // <WEBSOCKET_SERVER_PORT>
+
+using namespace websockets;
+WebsocketsClient client;
+bool isWebSocketConnected;
+
+// --- Function Prototypes ---
+void connectWiFi();
+void connectWSServer();
+void micTask(void* parameter);
+void i2s_install();
+void i2s_setpin();
+void onEventsCallback(WebsocketsEvent event, String data);
+// ---------------------------
+
+void onEventsCallback(WebsocketsEvent event, String data) {
+  if (event == WebsocketsEvent::ConnectionOpened) {
+    Serial.println("Connnection Opened");
+    isWebSocketConnected = true;
+  } else if (event == WebsocketsEvent::ConnectionClosed) {
+    Serial.println("Connnection Closed");
+    isWebSocketConnected = false;
+  } else if (event == WebsocketsEvent::GotPing) {
+    Serial.println("Got a Ping!");
+  } else if (event == WebsocketsEvent::GotPong) {
+    Serial.println("Got a Pong!");
+  }
+}
+
+void i2s_install() {
+  // Set up I2S Processor configuration
+  const i2s_config_t i2s_config = {
+    .mode = i2s_mode_t(I2S_MODE_MASTER | I2S_MODE_RX),
+    .sample_rate = 44100,
+    //.sample_rate = 16000,
+    .bits_per_sample = i2s_bits_per_sample_t(16),
+    .channel_format = I2S_CHANNEL_FMT_ONLY_LEFT,
+    .communication_format = i2s_comm_format_t(I2S_COMM_FORMAT_STAND_I2S),
+    .intr_alloc_flags = 0,
+    .dma_buf_count = bufferCnt,
+    .dma_buf_len = bufferLen,
+    .use_apll = false
+  };
+
+  i2s_driver_install(I2S_PORT, &i2s_config, 0, NULL);
+}
+
+void i2s_setpin() {
+  // Set I2S pin configuration
+  const i2s_pin_config_t pin_config = {
+    .bck_io_num = I2S_SCK,
+    .ws_io_num = I2S_WS,
+    .data_out_num = -1,
+    .data_in_num = I2S_SD
+  };
+
+  i2s_set_pin(I2S_PORT, &pin_config);
 }
 
 void setup() {
-    Serial.begin(921600);
-    setupI2S();
+  Serial.begin(115200);
+
+  connectWiFi();
+  connectWSServer();
+  xTaskCreatePinnedToCore(micTask, "micTask", 10000, NULL, 1, NULL, 1);
 }
 
 void loop() {
-    int32_t buffer[256];
-    int16_t outBuffer[256];
-    size_t bytes_read;
+  // Empty loop
+}
 
-    i2s_read(I2S_PORT, &buffer, sizeof(buffer), &bytes_read, portMAX_DELAY);
+void connectWiFi() {
+  WiFi.begin(ssid, password);
 
-    int samples = bytes_read / 4;
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.println("WiFi connected");
+}
 
-    for (int i = 0; i < samples; i++) {
-        outBuffer[i] = buffer[i] >> 14;
+void connectWSServer() {
+  client.onEvent(onEventsCallback);
+  while (!client.connect(websocket_server_host, websocket_server_port, "/")) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("Websocket Connected!");
+}
+
+void micTask(void* parameter) {
+  i2s_install();
+  i2s_setpin();
+  i2s_start(I2S_PORT);
+
+  size_t bytesIn = 0;
+  while (1) {
+    esp_err_t result = i2s_read(I2S_PORT, &sBuffer, bufferLen, &bytesIn, portMAX_DELAY);
+    if (result == ESP_OK && isWebSocketConnected) {
+      client.sendBinary((const char*)sBuffer, bytesIn);
     }
-
-    Serial.write((uint8_t*)outBuffer, samples * 2);
+  }
 }
