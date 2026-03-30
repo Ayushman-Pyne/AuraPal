@@ -125,5 +125,5 @@ def start_http():
 # MAIN
 # -----------------------------
 if __name__ == "__main__":
-   Thread(target=start_http, daemon=True).start()
-asyncio.run(start_ws())
+    Thread(target=start_http, daemon=True).start()
+    asyncio.run(start_ws())
