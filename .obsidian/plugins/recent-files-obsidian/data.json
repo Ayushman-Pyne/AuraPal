@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "SH1106",
+      "path": "05 - Fleeting/SH1106.md"
+    },
+    {
+      "basename": "INMP441",
+      "path": "05 - Fleeting/INMP441.md"
+    },
+    {
       "basename": "Home",
       "path": "01 - Home/Home.md"
     },
     {
       "basename": "ESP32-S3_INMP441_WebSocket_Client",
       "path": "02 - Projects/Broadcasting_Your_Voice/ESP32-S3_INMP441_WebSocket_Client/ESP32-S3_INMP441_WebSocket_Client.md"
-    },
-    {
-      "basename": "INMP441",
-      "path": "05 - Fleeting/INMP441.md"
     },
     {
       "basename": "Untitled 1",
@@ -23,10 +27,6 @@
     {
       "basename": "MAX98357A",
       "path": "05 - Fleeting/MAX98357A.md"
-    },
-    {
-      "basename": "SH1106",
-      "path": "05 - Fleeting/SH1106.md"
     },
     {
       "basename": "ESP32-S3-N16R8",
