@@ -7,14 +7,14 @@ from vosk import Model, KaldiRecognizer
 from threading import Thread
 
 # -----------------------------
-# Config
+# CONFIG
 # -----------------------------
 WS_PORT = 8888
 HTTP_PORT = 8000
 MODEL_PATH = "model"
 
 # -----------------------------
-# Load Vosk Model
+# LOAD VOSK MODEL
 # -----------------------------
 recognizer = None
 
@@ -27,26 +27,26 @@ else:
     print("⚠️ Vosk model not found. Speech recognition disabled.")
 
 # -----------------------------
-# WebSocket Clients
+# CLIENT STORAGE
 # -----------------------------
 connected_clients = set()
 
 # -----------------------------
-# Safe broadcast (FIXED)
+# SAFE SEND (NON-BLOCKING)
 # -----------------------------
 async def safe_send_all(data):
-    dead_clients = set()
+    dead = set()
 
     for ws in connected_clients:
         try:
             await ws.send(data)
         except:
-            dead_clients.add(ws)
+            dead.add(ws)
 
-    connected_clients.difference_update(dead_clients)
+    connected_clients.difference_update(dead)
 
 # -----------------------------
-# WebSocket Handler
+# WEBSOCKET HANDLER
 # -----------------------------
 async def handler(websocket):
     print("Client connected")
@@ -55,10 +55,10 @@ async def handler(websocket):
     try:
         async for data in websocket:
 
-            # 1. Broadcast raw audio to all clients
-            await safe_send_all(data)
+            # 🔥 Non-blocking broadcast (fixes stopping issue)
+            asyncio.create_task(safe_send_all(data))
 
-            # 2. Speech Recognition
+            # 🔊 Speech recognition
             if recognizer:
                 if recognizer.AcceptWaveform(data):
                     result = json.loads(recognizer.Result())
@@ -69,7 +69,7 @@ async def handler(websocket):
                             "text": result["text"],
                             "isFinal": True
                         })
-                        await safe_send_all(msg)
+                        asyncio.create_task(safe_send_all(msg))
 
                 else:
                     partial = json.loads(recognizer.PartialResult())
@@ -80,7 +80,10 @@ async def handler(websocket):
                             "text": partial["partial"],
                             "isFinal": False
                         })
-                        await safe_send_all(msg)
+                        asyncio.create_task(safe_send_all(msg))
+
+            # 🧠 Prevent event loop blocking
+            await asyncio.sleep(0)
 
     except websockets.exceptions.ConnectionClosed:
         print("Client disconnected")
@@ -89,26 +92,24 @@ async def handler(websocket):
         connected_clients.discard(websocket)
 
 # -----------------------------
-# Flask HTTP Server
+# FLASK SERVER
 # -----------------------------
-app = Flask(__name__)
-
-import os
+app = Flask(__name__, static_folder="static")
 
 @app.route("/audio")
-def audio_client():
-    return send_from_directory("static", "audio_client.html")
+def audio():
+    return app.send_static_file("audio_client.html")
 
 @app.route("/js/<path:path>")
-def send_js(path):
+def js_files(path):
     return send_from_directory("static/js", path)
 
 @app.route("/image/<path:path>")
-def send_image(path):
+def image_files(path):
     return send_from_directory("static/image", path)
 
 # -----------------------------
-# Run Both Servers
+# START SERVERS
 # -----------------------------
 async def start_ws():
     async with websockets.serve(handler, "0.0.0.0", WS_PORT):
@@ -117,10 +118,10 @@ async def start_ws():
 
 def start_http():
     print(f"🌐 HTTP server running on http://localhost:{HTTP_PORT}")
-    app.run(host="10.77.182.207", port=HTTP_PORT)
+    app.run(host="0.0.0.0", port=HTTP_PORT)
 
 # -----------------------------
-# Main
+# MAIN
 # -----------------------------
 if __name__ == "__main__":
     Thread(target=start_http, daemon=True).start()
