@@ -3,7 +3,19 @@
 > A centralized repository of notes, experiments, and learnings across domains.
 
 ---
-
+## 🧩 Obsidian Setup  
+  
+This repository is designed to be used as an **Obsidian vault**.  
+  
+### 📥 Steps  
+  
+1. Clone the repository:  
+```bash  
+   git clone https://github.com/your-username/your-repo-name.git
+```
+2. Open **Obsidian**
+3. Click **"Open folder as vault"**
+4. Select the cloned repository folder
 ## 🧭 Start Here
 
 👉 **Go to:** [`01 - Home/Home.md`](./01%20-%20Home/Home.md)
