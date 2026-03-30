@@ -9,6 +9,12 @@ cssclasses:
 - [[MAX98357A]] amplifier
 - [[INMP441]] microphone
 
+---
+
+### ESP32
+![[ESP32-S3-N16R8]]
+
+
 ## Connections
 >[!multi-column] MIMCROPHONE
 >>[!note] Microphone
