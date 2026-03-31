@@ -11,10 +11,14 @@
             "id": "b48ef3725bbdd488",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 - Home/Home.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Home"
             }
           }
         ]
@@ -207,11 +211,15 @@
   },
   "active": "b48ef3725bbdd488",
   "lastOpenFiles": [
-    "ReadMe.md",
+    "05 - Fleeting/ESP32-S3-N16R8.md",
+    "02 - Resources/Attachments/Pasted image 20260327153131.png",
+    "02 - Resources/Attachments/Pasted image 20260327155557.png",
+    "02 - Resources/Attachments/Pasted image 20260327160250.png",
     "01 - Home/Home.md",
-    "02 - Projects/SH1106-EmotionLoop.md",
-    "05 - Fleeting/SH1106.md",
     "02 - Projects/ESP32-S3_INMP441_WebSocket_Client.md",
+    "02 - Projects/SH1106-EmotionLoop.md",
+    "ReadMe.md",
+    "05 - Fleeting/SH1106.md",
     "02 - Projects/Untitled.md",
     "05 - Fleeting/INMP441.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/static/js/worker.js",
@@ -247,11 +255,6 @@
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/unpipe/HISTORY.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/type-is/README.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/type-is/HISTORY.md",
-    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/toidentifier/README.md",
-    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/toidentifier/HISTORY.md",
-    "02 - Projects/Broadcasting_Your_Voice/thumbnail/project_thumbnail.jpg",
-    "02 - Resources/Attachments/Pasted image 20260327225534.png",
-    "02 - Resources/Attachments/Pasted image 20260327160250.png",
-    "02 - Resources/Attachments/Pasted image 20260327155557.png"
+    "02 - Projects/Broadcasting_Your_Voice/thumbnail/project_thumbnail.jpg"
   ]
 }
