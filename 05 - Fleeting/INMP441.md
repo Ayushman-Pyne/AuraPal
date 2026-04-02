@@ -11,9 +11,9 @@ cssclasses:
 | --- | ------- |
 | VDD | 3.3V    |
 | GND | GND     |
-| SCK | GPIO 14 |
-| WS  | GPIO 15 |
-| SD  | GPIO 16 |
+| SCK | GPIO 38 |
+| WS  | GPIO 39 |
+| SD  | GPIO 40 |
 | L/R | GND     |
 
 ---

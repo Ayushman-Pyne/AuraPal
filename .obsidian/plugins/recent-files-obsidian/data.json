@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "INMP441",
+      "path": "05 - Fleeting/INMP441.md"
+    },
+    {
+      "basename": "ESP32-S3_INMP441_WebSocket_Client",
+      "path": "02 - Projects/ESP32-S3_INMP441_WebSocket_Client.md"
+    },
+    {
       "basename": "Home",
       "path": "01 - Home/Home.md"
     },
@@ -21,10 +29,6 @@
       "path": "02 - Resources/Attachments/Pasted image 20260327160250.png"
     },
     {
-      "basename": "ESP32-S3_INMP441_WebSocket_Client",
-      "path": "02 - Projects/ESP32-S3_INMP441_WebSocket_Client.md"
-    },
-    {
       "basename": "SH1106-EmotionLoop",
       "path": "02 - Projects/SH1106-EmotionLoop.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "SH1106",
       "path": "05 - Fleeting/SH1106.md"
-    },
-    {
-      "basename": "INMP441",
-      "path": "05 - Fleeting/INMP441.md"
     },
     {
       "basename": "Untitled 1",
