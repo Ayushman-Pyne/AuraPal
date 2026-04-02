@@ -11,10 +11,14 @@
             "id": "a5601da7c218579f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 - Projects/SH1106-EmotionLoop.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SH1106-EmotionLoop"
             }
           }
         ]
@@ -207,8 +211,8 @@
   },
   "active": "a5601da7c218579f",
   "lastOpenFiles": [
-    "05 - Fleeting/TTP223.md",
     "05 - Fleeting/SH1106.md",
+    "05 - Fleeting/TTP223.md",
     "05 - Fleeting/MAX98357A.md",
     "05 - Fleeting/INMP441.md",
     "02 - Projects/Simple Broadcast Code.md",
