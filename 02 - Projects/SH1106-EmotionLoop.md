@@ -3,8 +3,12 @@ cssclasses:
   - color-head
 ---
 
+## Connections
+- [[SH1106]]
+- [[ESP32-S3-N16R8]]
+
 ## *HOW TO RUN?*
-- 
+- Just Upload and it should work fine
 
 
 ## *Codes*

@@ -24,5 +24,5 @@ cssclasses:
 
 # Example Projects
 
-- [[ESP32-S3_INMP441_WebSocket_Client]]
+- [[Simple Broadcast Code]]
 - 
