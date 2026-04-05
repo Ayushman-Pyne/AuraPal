@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f12b7c8b884f2ef5",
+            "id": "1676db511f89d84a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Projects/Speaker Using WebSockets.md",
+                "file": "01 - Home/Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Speaker Using WebSockets"
+              "title": "Home"
             }
           }
         ]
@@ -209,17 +209,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f12b7c8b884f2ef5",
+  "active": "1676db511f89d84a",
   "lastOpenFiles": [
+    "05 - Fleeting/TTP223.md",
+    "01 - Home/Home.md",
+    "02 - Projects/Servo Movement Using Touch.md",
+    "05 - Fleeting/SH1106.md",
+    "05 - Fleeting/SG90.md",
+    "02 - Resources/Attachments/Pasted image 20260406001738.png",
+    "02 - Projects/Speaker Using WebSockets.md",
     "02 - Projects/Simple Mic Broadcast Code.md",
     "02 - Projects/SH1106-EmotionLoop.md",
     "05 - Fleeting/INMP441.md",
     "05 - Fleeting/MAX98357A.md",
-    "02 - Projects/Speaker Using WebSockets.md",
-    "05 - Fleeting/SH1106.md",
-    "05 - Fleeting/TTP223.md",
     "02 - Resources/Attachments/Pasted image 20260403030339.png",
-    "01 - Home/Home.md",
     "05 - Fleeting/ESP32-S3-N16R8.md",
     "02 - Resources/Attachments/Pasted image 20260327153131.png",
     "02 - Resources/Attachments/Pasted image 20260327155557.png",
@@ -248,14 +251,10 @@
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/werkzeug/debug/shared/more.png",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/werkzeug/debug/shared/less.png",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
-    "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/werkzeug/debug/shared/console.png",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/ee-first/README.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/ws/README.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/vary/README.md",
-    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/vary/HISTORY.md",
-    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/utils-merge/README.md",
-    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/unpipe/README.md",
-    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/unpipe/HISTORY.md"
+    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/vary/HISTORY.md"
   ]
 }

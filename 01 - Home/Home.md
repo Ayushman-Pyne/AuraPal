@@ -24,10 +24,15 @@ cssclasses:
 >> ![[MAX98357A]]
 
 
+>[!hint] OLED Display
+> ![[SH1106]]
+
+
 >[!multi-column]
->>[!hint] OLED Display
->> ![[SH1106]]
+>>[!hint] Touch Sensor
+>> ![[TTP223]]
 >
->>[!attention] Touch Sensor
+>>[!attention] Servo Motor
+>>![[SG90]]
 
 

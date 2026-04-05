@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "01 - Home/Home.md"
+    },
+    {
+      "basename": "TTP223",
+      "path": "05 - Fleeting/TTP223.md"
+    },
+    {
+      "basename": "Servo Movement Using Touch",
+      "path": "02 - Projects/Servo Movement Using Touch.md"
+    },
+    {
+      "basename": "SH1106",
+      "path": "05 - Fleeting/SH1106.md"
+    },
+    {
+      "basename": "SG90",
+      "path": "05 - Fleeting/SG90.md"
+    },
+    {
+      "basename": "Pasted image 20260406001738",
+      "path": "02 - Resources/Attachments/Pasted image 20260406001738.png"
+    },
+    {
       "basename": "Speaker Using WebSockets",
       "path": "02 - Projects/Speaker Using WebSockets.md"
     },
@@ -19,18 +43,6 @@
     {
       "basename": "MAX98357A",
       "path": "05 - Fleeting/MAX98357A.md"
-    },
-    {
-      "basename": "SH1106",
-      "path": "05 - Fleeting/SH1106.md"
-    },
-    {
-      "basename": "TTP223",
-      "path": "05 - Fleeting/TTP223.md"
-    },
-    {
-      "basename": "Home",
-      "path": "01 - Home/Home.md"
     },
     {
       "basename": "ESP32-S3-N16R8",
