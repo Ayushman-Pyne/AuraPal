@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Projects/Simple Mic Broadcast Code.md",
+                "file": "02 - Projects/Speaker Using WebSockets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Simple Mic Broadcast Code"
+              "title": "Speaker Using WebSockets"
             }
           }
         ]
@@ -211,11 +211,11 @@
   },
   "active": "f12b7c8b884f2ef5",
   "lastOpenFiles": [
+    "02 - Projects/Simple Mic Broadcast Code.md",
+    "02 - Projects/SH1106-EmotionLoop.md",
     "05 - Fleeting/INMP441.md",
     "05 - Fleeting/MAX98357A.md",
     "02 - Projects/Speaker Using WebSockets.md",
-    "02 - Projects/Simple Mic Broadcast Code.md",
-    "02 - Projects/SH1106-EmotionLoop.md",
     "05 - Fleeting/SH1106.md",
     "05 - Fleeting/TTP223.md",
     "02 - Resources/Attachments/Pasted image 20260403030339.png",
