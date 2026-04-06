@@ -24,7 +24,7 @@ lib_deps =
 ```
 
 ### ***FluxGarage_RoboEyes.h***
-```C Header
+```C++ Header
 /*
  * FluxGarage RoboEyes for OLED Displays V 1.1.1
  * Draws smoothly animated robot eyes on OLED displays, based on the Adafruit GFX 
