@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 - Fleeting/SH1106.md",
+                "file": "02 - Projects/SH1106-EmotionLoop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SH1106"
+              "title": "SH1106-EmotionLoop"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -280,13 +280,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bbc6ded209f53555",
+  "active": "18f653fd536f56ec",
   "lastOpenFiles": [
+    "05 - Fleeting/SH1106.md",
+    "05 - Fleeting/ESP32-S3-N16R8.md",
     "05 - Fleeting/INMP441.md",
     "05 - Fleeting/MAX98357A.md",
     "05 - Fleeting/SG90.md",
     "05 - Fleeting/TTP223.md",
-    "05 - Fleeting/SH1106.md",
     "02 - Projects/Simple Mic Broadcast Code.md",
     "01 - Home/Home.md",
     "02 - Projects/Servo Movement Using Touch.md",
@@ -294,7 +295,6 @@
     "02 - Projects/Speaker Using WebSockets.md",
     "02 - Projects/SH1106-EmotionLoop.md",
     "02 - Resources/Attachments/Pasted image 20260403030339.png",
-    "05 - Fleeting/ESP32-S3-N16R8.md",
     "02 - Resources/Attachments/Pasted image 20260327153131.png",
     "02 - Resources/Attachments/Pasted image 20260327155557.png",
     "02 - Resources/Attachments/Pasted image 20260327160250.png",

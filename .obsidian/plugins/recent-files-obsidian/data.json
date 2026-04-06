@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SH1106-EmotionLoop",
+      "path": "02 - Projects/SH1106-EmotionLoop.md"
+    },
+    {
+      "basename": "SH1106",
+      "path": "05 - Fleeting/SH1106.md"
+    },
+    {
       "basename": "ESP32-S3-N16R8",
       "path": "05 - Fleeting/ESP32-S3-N16R8.md"
     },
@@ -21,10 +29,6 @@
       "path": "05 - Fleeting/TTP223.md"
     },
     {
-      "basename": "SH1106",
-      "path": "05 - Fleeting/SH1106.md"
-    },
-    {
       "basename": "Simple Mic Broadcast Code",
       "path": "02 - Projects/Simple Mic Broadcast Code.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "Speaker Using WebSockets",
       "path": "02 - Projects/Speaker Using WebSockets.md"
-    },
-    {
-      "basename": "SH1106-EmotionLoop",
-      "path": "02 - Projects/SH1106-EmotionLoop.md"
     },
     {
       "basename": "Pasted image 20260327153131",
