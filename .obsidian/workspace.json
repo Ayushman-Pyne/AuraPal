@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 - Fleeting/INMP441.md",
+                "file": "05 - Fleeting/ESP32-S3-N16R8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INMP441"
+              "title": "ESP32-S3-N16R8"
             }
           }
         ],
@@ -282,6 +282,7 @@
   },
   "active": "bbc6ded209f53555",
   "lastOpenFiles": [
+    "05 - Fleeting/INMP441.md",
     "05 - Fleeting/MAX98357A.md",
     "05 - Fleeting/SG90.md",
     "05 - Fleeting/TTP223.md",
@@ -292,7 +293,6 @@
     "02 - Resources/Attachments/Pasted image 20260406001738.png",
     "02 - Projects/Speaker Using WebSockets.md",
     "02 - Projects/SH1106-EmotionLoop.md",
-    "05 - Fleeting/INMP441.md",
     "02 - Resources/Attachments/Pasted image 20260403030339.png",
     "05 - Fleeting/ESP32-S3-N16R8.md",
     "02 - Resources/Attachments/Pasted image 20260327153131.png",
