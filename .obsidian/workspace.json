@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -280,19 +280,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "40c6368ff0c7e075",
+  "active": "bbc6ded209f53555",
   "lastOpenFiles": [
+    "05 - Fleeting/MAX98357A.md",
+    "05 - Fleeting/SG90.md",
     "05 - Fleeting/TTP223.md",
     "05 - Fleeting/SH1106.md",
     "02 - Projects/Simple Mic Broadcast Code.md",
     "01 - Home/Home.md",
-    "05 - Fleeting/SG90.md",
     "02 - Projects/Servo Movement Using Touch.md",
     "02 - Resources/Attachments/Pasted image 20260406001738.png",
     "02 - Projects/Speaker Using WebSockets.md",
     "02 - Projects/SH1106-EmotionLoop.md",
     "05 - Fleeting/INMP441.md",
-    "05 - Fleeting/MAX98357A.md",
     "02 - Resources/Attachments/Pasted image 20260403030339.png",
     "05 - Fleeting/ESP32-S3-N16R8.md",
     "02 - Resources/Attachments/Pasted image 20260327153131.png",

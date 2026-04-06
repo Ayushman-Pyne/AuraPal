@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "INMP441",
+      "path": "05 - Fleeting/INMP441.md"
+    },
+    {
+      "basename": "MAX98357A",
+      "path": "05 - Fleeting/MAX98357A.md"
+    },
+    {
       "basename": "SG90",
       "path": "05 - Fleeting/SG90.md"
     },
@@ -35,14 +43,6 @@
     {
       "basename": "SH1106-EmotionLoop",
       "path": "02 - Projects/SH1106-EmotionLoop.md"
-    },
-    {
-      "basename": "INMP441",
-      "path": "05 - Fleeting/INMP441.md"
-    },
-    {
-      "basename": "MAX98357A",
-      "path": "05 - Fleeting/MAX98357A.md"
     },
     {
       "basename": "ESP32-S3-N16R8",
