@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - Projects/Speaker Using WebSockets.md",
+                "file": "05 - Fleeting/ESP32-S3-N16R8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Speaker Using WebSockets"
+              "title": "ESP32-S3-N16R8"
             }
           }
         ]
@@ -211,18 +211,18 @@
   },
   "active": "51e4e71377e077c0",
   "lastOpenFiles": [
+    "05 - Fleeting/SH1106.md",
+    "02 - Projects/Speaker Using WebSockets.md",
     "02 - Projects/Simple Mic Broadcast Code.md",
     "05 - Fleeting/ESP32-S3-N16R8.md",
     "05 - Fleeting/MAX98357A.md",
     "05 - Fleeting/SG90.md",
     "05 - Fleeting/TTP223.md",
     "02 - Projects/SH1106-EmotionLoop.md",
-    "05 - Fleeting/SH1106.md",
     "05 - Fleeting/INMP441.md",
     "01 - Home/Home.md",
     "02 - Projects/Servo Movement Using Touch.md",
     "02 - Resources/Attachments/Pasted image 20260406001738.png",
-    "02 - Projects/Speaker Using WebSockets.md",
     "02 - Resources/Attachments/Pasted image 20260403030339.png",
     "02 - Resources/Attachments/Pasted image 20260327153131.png",
     "02 - Resources/Attachments/Pasted image 20260327155557.png",

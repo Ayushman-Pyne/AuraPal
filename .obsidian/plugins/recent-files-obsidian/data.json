@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "ESP32-S3-N16R8",
+      "path": "05 - Fleeting/ESP32-S3-N16R8.md"
+    },
+    {
+      "basename": "SH1106",
+      "path": "05 - Fleeting/SH1106.md"
+    },
+    {
       "basename": "Speaker Using WebSockets",
       "path": "02 - Projects/Speaker Using WebSockets.md"
     },
     {
       "basename": "Simple Mic Broadcast Code",
       "path": "02 - Projects/Simple Mic Broadcast Code.md"
-    },
-    {
-      "basename": "ESP32-S3-N16R8",
-      "path": "05 - Fleeting/ESP32-S3-N16R8.md"
     },
     {
       "basename": "MAX98357A",
@@ -27,10 +31,6 @@
     {
       "basename": "SH1106-EmotionLoop",
       "path": "02 - Projects/SH1106-EmotionLoop.md"
-    },
-    {
-      "basename": "SH1106",
-      "path": "05 - Fleeting/SH1106.md"
     },
     {
       "basename": "INMP441",
