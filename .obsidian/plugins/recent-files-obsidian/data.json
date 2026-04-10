@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "SH1106-EmotionLoop",
-      "path": "02 - Projects/SH1106-EmotionLoop.md"
+      "basename": "Speaker Using WebSockets",
+      "path": "02 - Projects/Speaker Using WebSockets.md"
     },
     {
-      "basename": "SH1106",
-      "path": "05 - Fleeting/SH1106.md"
+      "basename": "Simple Mic Broadcast Code",
+      "path": "02 - Projects/Simple Mic Broadcast Code.md"
     },
     {
       "basename": "ESP32-S3-N16R8",
       "path": "05 - Fleeting/ESP32-S3-N16R8.md"
-    },
-    {
-      "basename": "INMP441",
-      "path": "05 - Fleeting/INMP441.md"
     },
     {
       "basename": "MAX98357A",
@@ -29,8 +25,16 @@
       "path": "05 - Fleeting/TTP223.md"
     },
     {
-      "basename": "Simple Mic Broadcast Code",
-      "path": "02 - Projects/Simple Mic Broadcast Code.md"
+      "basename": "SH1106-EmotionLoop",
+      "path": "02 - Projects/SH1106-EmotionLoop.md"
+    },
+    {
+      "basename": "SH1106",
+      "path": "05 - Fleeting/SH1106.md"
+    },
+    {
+      "basename": "INMP441",
+      "path": "05 - Fleeting/INMP441.md"
     },
     {
       "basename": "Home",
@@ -43,10 +47,6 @@
     {
       "basename": "Pasted image 20260406001738",
       "path": "02 - Resources/Attachments/Pasted image 20260406001738.png"
-    },
-    {
-      "basename": "Speaker Using WebSockets",
-      "path": "02 - Projects/Speaker Using WebSockets.md"
     },
     {
       "basename": "Pasted image 20260327153131",
