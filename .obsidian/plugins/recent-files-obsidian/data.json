@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "01 - Home/Home.md"
+    },
+    {
+      "basename": "INMP441",
+      "path": "05 - Fleeting/INMP441.md"
+    },
+    {
       "basename": "ESP32-S3-N16R8",
       "path": "05 - Fleeting/ESP32-S3-N16R8.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "SH1106-EmotionLoop",
       "path": "02 - Projects/SH1106-EmotionLoop.md"
-    },
-    {
-      "basename": "INMP441",
-      "path": "05 - Fleeting/INMP441.md"
-    },
-    {
-      "basename": "Home",
-      "path": "01 - Home/Home.md"
     },
     {
       "basename": "Servo Movement Using Touch",
