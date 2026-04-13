@@ -5,6 +5,10 @@
       "path": "01 - Home/Home.md"
     },
     {
+      "basename": "SG90",
+      "path": "05 - Fleeting/SG90.md"
+    },
+    {
       "basename": "INMP441",
       "path": "05 - Fleeting/INMP441.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "MAX98357A",
       "path": "05 - Fleeting/MAX98357A.md"
-    },
-    {
-      "basename": "SG90",
-      "path": "05 - Fleeting/SG90.md"
     },
     {
       "basename": "TTP223",
