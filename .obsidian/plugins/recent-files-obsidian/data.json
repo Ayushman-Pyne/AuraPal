@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Speaker Using WebSockets",
+      "path": "02 - Projects/Speaker Using WebSockets.md"
+    },
+    {
       "basename": "Home",
       "path": "01 - Home/Home.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "SH1106",
       "path": "05 - Fleeting/SH1106.md"
-    },
-    {
-      "basename": "Speaker Using WebSockets",
-      "path": "02 - Projects/Speaker Using WebSockets.md"
     },
     {
       "basename": "Simple Mic Broadcast Code",
