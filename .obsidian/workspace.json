@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -266,8 +266,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a370aaff85a8ec1f",
+  "active": "0520b95135862901",
   "lastOpenFiles": [
+    "02 - Projects/Speaker Using WebSockets.md",
     "01 - Home/Home.md",
     "PCF8574T.md",
     "02 - Resources/Attachments/Pasted image 20260417204541.png",
@@ -279,7 +280,6 @@
     "05 - Fleeting/INMP441.md",
     "05 - Fleeting/ESP32-S3-N16R8.md",
     "05 - Fleeting/SH1106.md",
-    "02 - Projects/Speaker Using WebSockets.md",
     "02 - Projects/Simple Mic Broadcast Code.md",
     "05 - Fleeting/MAX98357A.md",
     "05 - Fleeting/TTP223.md",
