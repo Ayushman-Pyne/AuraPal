@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "248bd2f44c5e0e28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PCF8574T.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PCF8574T"
+            }
+          },
+          {
             "id": "2e379e45a71434ab",
             "type": "leaf",
             "state": {
@@ -224,11 +238,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2e379e45a71434ab",
+  "active": "248bd2f44c5e0e28",
   "lastOpenFiles": [
-    "02 - Resources/Attachments/Pasted image 20260417201054.png",
+    "02 - Resources/Attachments/Pasted image 20260417203608.png",
+    "02 - Resources/Attachments/Pasted image 20260417203555.png",
     "01 - Home/Home.md",
+    "PCF8574T.md",
     "MX1508.md",
+    "02 - Resources/Attachments/Pasted image 20260417201054.png",
     "05 - Fleeting/SG90.md",
     "05 - Fleeting/INMP441.md",
     "05 - Fleeting/ESP32-S3-N16R8.md",
@@ -265,12 +282,9 @@
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/testvenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/testvenv/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/flask/sansio/README.md",
-    "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/werkzeug/debug/shared/more.png",
-    "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/werkzeug/debug/shared/less.png",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
     "02 - Projects/ESP SandBox/Python/testvenv/Lib/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/ee-first/README.md",
-    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/ws/README.md",
-    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/vary/README.md"
+    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/node_modules/ws/README.md"
   ]
 }
