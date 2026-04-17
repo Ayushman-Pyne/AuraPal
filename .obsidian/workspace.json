@@ -49,8 +49,7 @@
               "title": "MX1508"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,13 +237,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "248bd2f44c5e0e28",
+  "active": "51e4e71377e077c0",
   "lastOpenFiles": [
+    "PCF8574T.md",
     "02 - Resources/Attachments/Pasted image 20260417204541.png",
     "02 - Resources/Attachments/Pasted image 20260417203608.png",
     "02 - Resources/Attachments/Pasted image 20260417203555.png",
     "01 - Home/Home.md",
-    "PCF8574T.md",
     "MX1508.md",
     "02 - Resources/Attachments/Pasted image 20260417201054.png",
     "05 - Fleeting/SG90.md",
@@ -276,7 +275,6 @@
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/js/audio_client.html",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/testvenv/Lib/site-packages/flask/sansio/README.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/testvenv/Lib/site-packages/werkzeug/debug/shared/more.png",
-    "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/testvenv/Lib/site-packages/werkzeug/debug/shared/less.png",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/testvenv/Lib/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/testvenv/Lib/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
     "02 - Projects/Broadcasting_Your_Voice/wsAudioServer/testvenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
